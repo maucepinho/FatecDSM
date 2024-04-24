@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Simples</title>
+</head>
+<body>
+    <form action="text" name="nome">
+        <label>Nome</label>
+        <input type="text" name="nome"> <br>
+        <label>Cidade</label>
+        <input type="text" name="cidade" value="Jacareí"> <br>
+        <label for="email">E-mail</label>
+        <input type="email" name="email"> <br>
+        <label>Senha:</label>
+        <input type="password" name="senha"> <br>
+
+        <fieldset>
+            <legend>Chocolate:</legend>
+            <input type="radio" name="Chocolate" id="um" value="Chokito" checked>
+            <label>Chokito</label>
+            <input type="radio" name="Chocolate" id="dois" value="Bis">
+            <label>Bis</label>
+            <input type="radio" name="Chocolate" id="tres" value="Kit-Kat">
+            <label>Kit-Kat</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Refrigerantes:</legend>
+            <input type="radio" name="refri" id="quatro" value="Coca-Cola">
+            <label>Coca-Cola</label>
+            <input type="radio" name="refri" id="cinco" value="Guarana">
+            <label>Guaranha</label>
+            <input type="radio" name="refri" id="seis" value="Pepsi">
+            <label>Pepsi</label>
+        </fieldset>
+
+        <br>
+
+        <label>Comentários</label> <br>
+        <textarea name="comentarios" id="areal" cols="40" rows="10"></textarea>
+        
+        <br><br>
+
+        <label>Escolha uma opção:</label>
+        <select name="frutas" id="fruta">
+            <option value="abacaxi">Abacaxi</option>
+            <option value="morango">Morango</option>
+            <option value="pera">Pera</option>
+            <option value="laranja">Laranja</option>
+        </select>
+
+        <br><br>
+
+        <button>Enviar</button>
+    </form>
+</body>
+</html>

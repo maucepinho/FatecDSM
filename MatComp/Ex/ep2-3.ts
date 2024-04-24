@@ -1,0 +1,16 @@
+//2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 39,
+enum NumerosPrimos {
+    Dois = 2,
+    Tres = 3,
+    Cinco = 5,
+    Sete = 7,
+    Onze = 11,
+    Treze = 13,
+    Dezessete = 17,
+    Dezenove = 19,
+    VinteTres = 23,
+    VinteENove = 29,
+    TrintaEUm = 31,
+    TrintaESete = 37,
+    TrintaENove = 39,
+  }

@@ -1,0 +1,3 @@
+Qual é a diferença entre as restrições de participação total e parcial no tipo de relacionamento?
+Total: Uma entidade deve ter um relacionamento.
+Parcial: Uma entidade pode ter um relacionamento.
